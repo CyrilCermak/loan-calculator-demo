@@ -1,0 +1,6 @@
+framework module Pods_BIT_LoanCalculator {
+  umbrella header "Pods-BIT-LoanCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}

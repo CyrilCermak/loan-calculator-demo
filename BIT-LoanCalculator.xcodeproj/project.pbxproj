@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58DC781D5813B3D942F3EBA8 /* Pods_BIT_LoanCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB398760AEF3E9677E004BE /* Pods_BIT_LoanCalculator.framework */; };
+		F11195F51DD156AA002C7588 /* LoanDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11195F41DD156AA002C7588 /* LoanDetailVC.swift */; };
+		F11195F71DD223E9002C7588 /* LoanDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F11195F61DD223E9002C7588 /* LoanDetailCell.xib */; };
+		F11195F91DD22AE0002C7588 /* LoanDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11195F81DD22AE0002C7588 /* LoanDetailCell.swift */; };
+		F14B6E061DCF819600DF1F89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14B6E051DCF819600DF1F89 /* AppDelegate.swift */; };
+		F14B6E0D1DCF819700DF1F89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F14B6E0C1DCF819700DF1F89 /* Assets.xcassets */; };
+		F14B6E101DCF819700DF1F89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F14B6E0E1DCF819700DF1F89 /* LaunchScreen.storyboard */; };
+		F14B6E1B1DCF819700DF1F89 /* BIT_LoanCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14B6E1A1DCF819700DF1F89 /* BIT_LoanCalculatorTests.swift */; };
+		F14B6E261DCF819700DF1F89 /* BIT_LoanCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14B6E251DCF819700DF1F89 /* BIT_LoanCalculatorUITests.swift */; };
+		F14B6E341DCF8FAA00DF1F89 /* LoanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14B6E331DCF8FAA00DF1F89 /* LoanVC.swift */; };
+		F168C8FA1DD63C23003062F6 /* LoanApplied.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168C8F91DD63C23003062F6 /* LoanApplied.swift */; };
+		F19E52011DCFA03A00B290D4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19E52001DCFA03A00B290D4 /* Storyboard.storyboard */; };
+		F19E52131DCFE53400B290D4 /* OffersTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E52121DCFE53400B290D4 /* OffersTVC.swift */; };
+		F19E52151DCFE6AC00B290D4 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E52141DCFE6AC00B290D4 /* Loan.swift */; };
+		F19E52171DCFED1100B290D4 /* LoanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19E52161DCFED1100B290D4 /* LoanCell.swift */; };
+		F19E52191DCFED8A00B290D4 /* LoanCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F19E52181DCFED8A00B290D4 /* LoanCellView.xib */; };
+		F1A127B41DD52EB900ECBFEE /* LoanApplicationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A127B31DD52EB900ECBFEE /* LoanApplicationVC.swift */; };
+		F1DB88D81DD3763100504E75 /* LoanDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DB88D71DD3763100504E75 /* LoanDetailView.xib */; };
+		F1DB88DA1DD3784400504E75 /* LoanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB88D91DD3784400504E75 /* LoanDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F14B6E171DCF819700DF1F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14B6DFA1DCF819600DF1F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F14B6E011DCF819600DF1F89;
+			remoteInfo = "BIT-LoanCalculator";
+		};
+		F14B6E221DCF819700DF1F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F14B6DFA1DCF819600DF1F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F14B6E011DCF819600DF1F89;
+			remoteInfo = "BIT-LoanCalculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ECCDCD6C4876242DE1901D4 /* Pods-BIT-LoanCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIT-LoanCalculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-BIT-LoanCalculator/Pods-BIT-LoanCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		5D6F117358E589EA44CDA86E /* Pods-BIT-LoanCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIT-LoanCalculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BIT-LoanCalculator/Pods-BIT-LoanCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		F11195F41DD156AA002C7588 /* LoanDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanDetailVC.swift; sourceTree = "<group>"; };
+		F11195F61DD223E9002C7588 /* LoanDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoanDetailCell.xib; sourceTree = "<group>"; };
+		F11195F81DD22AE0002C7588 /* LoanDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanDetailCell.swift; sourceTree = "<group>"; };
+		F14B6E021DCF819600DF1F89 /* BIT-LoanCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BIT-LoanCalculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14B6E051DCF819600DF1F89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F14B6E0C1DCF819700DF1F89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F14B6E0F1DCF819700DF1F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F14B6E111DCF819700DF1F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14B6E161DCF819700DF1F89 /* BIT-LoanCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BIT-LoanCalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14B6E1A1DCF819700DF1F89 /* BIT_LoanCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIT_LoanCalculatorTests.swift; sourceTree = "<group>"; };
+		F14B6E1C1DCF819700DF1F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14B6E211DCF819700DF1F89 /* BIT-LoanCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BIT-LoanCalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F14B6E251DCF819700DF1F89 /* BIT_LoanCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIT_LoanCalculatorUITests.swift; sourceTree = "<group>"; };
+		F14B6E271DCF819700DF1F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F14B6E331DCF8FAA00DF1F89 /* LoanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanVC.swift; sourceTree = "<group>"; };
+		F168C8F91DD63C23003062F6 /* LoanApplied.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanApplied.swift; sourceTree = "<group>"; };
+		F19E52001DCFA03A00B290D4 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		F19E52121DCFE53400B290D4 /* OffersTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OffersTVC.swift; sourceTree = "<group>"; };
+		F19E52141DCFE6AC00B290D4 /* Loan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		F19E52161DCFED1100B290D4 /* LoanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanCell.swift; sourceTree = "<group>"; };
+		F19E52181DCFED8A00B290D4 /* LoanCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoanCellView.xib; sourceTree = "<group>"; };
+		F1A127B31DD52EB900ECBFEE /* LoanApplicationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanApplicationVC.swift; sourceTree = "<group>"; };
+		F1DB88D71DD3763100504E75 /* LoanDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoanDetailView.xib; sourceTree = "<group>"; };
+		F1DB88D91DD3784400504E75 /* LoanDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoanDetailView.swift; sourceTree = "<group>"; };
+		FCB398760AEF3E9677E004BE /* Pods_BIT_LoanCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BIT_LoanCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F14B6DFF1DCF819600DF1F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58DC781D5813B3D942F3EBA8 /* Pods_BIT_LoanCalculator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14B6E131DCF819700DF1F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14B6E1E1DCF819700DF1F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFAE8B5C68A08D127A59CB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCB398760AEF3E9677E004BE /* Pods_BIT_LoanCalculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC60F1937DA5CB78431BF56D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D6F117358E589EA44CDA86E /* Pods-BIT-LoanCalculator.debug.xcconfig */,
+				3ECCDCD6C4876242DE1901D4 /* Pods-BIT-LoanCalculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F14B6DF91DCF819600DF1F89 = {
+			isa = PBXGroup;
+			children = (
+				F14B6E041DCF819600DF1F89 /* BIT-LoanCalculator */,
+				F14B6E191DCF819700DF1F89 /* BIT-LoanCalculatorTests */,
+				F14B6E241DCF819700DF1F89 /* BIT-LoanCalculatorUITests */,
+				F14B6E031DCF819600DF1F89 /* Products */,
+				BC60F1937DA5CB78431BF56D /* Pods */,
+				0AFAE8B5C68A08D127A59CB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F14B6E031DCF819600DF1F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F14B6E021DCF819600DF1F89 /* BIT-LoanCalculator.app */,
+				F14B6E161DCF819700DF1F89 /* BIT-LoanCalculatorTests.xctest */,
+				F14B6E211DCF819700DF1F89 /* BIT-LoanCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F14B6E041DCF819600DF1F89 /* BIT-LoanCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				F1A127B61DD5301E00ECBFEE /* controllers */,
+				F1A127B71DD5303300ECBFEE /* Model */,
+				F1A127B51DD52FFB00ECBFEE /* views */,
+				F14B6E051DCF819600DF1F89 /* AppDelegate.swift */,
+				F14B6E0E1DCF819700DF1F89 /* LaunchScreen.storyboard */,
+				F14B6E111DCF819700DF1F89 /* Info.plist */,
+				F19E52001DCFA03A00B290D4 /* Storyboard.storyboard */,
+				F14B6E0C1DCF819700DF1F89 /* Assets.xcassets */,
+			);
+			path = "BIT-LoanCalculator";
+			sourceTree = "<group>";
+		};
+		F14B6E191DCF819700DF1F89 /* BIT-LoanCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F14B6E1A1DCF819700DF1F89 /* BIT_LoanCalculatorTests.swift */,
+				F14B6E1C1DCF819700DF1F89 /* Info.plist */,
+			);
+			path = "BIT-LoanCalculatorTests";
+			sourceTree = "<group>";
+		};
+		F14B6E241DCF819700DF1F89 /* BIT-LoanCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F14B6E251DCF819700DF1F89 /* BIT_LoanCalculatorUITests.swift */,
+				F14B6E271DCF819700DF1F89 /* Info.plist */,
+			);
+			path = "BIT-LoanCalculatorUITests";
+			sourceTree = "<group>";
+		};
+		F1A127B51DD52FFB00ECBFEE /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB88D91DD3784400504E75 /* LoanDetailView.swift */,
+				F11195F81DD22AE0002C7588 /* LoanDetailCell.swift */,
+				F1DB88D71DD3763100504E75 /* LoanDetailView.xib */,
+				F19E52181DCFED8A00B290D4 /* LoanCellView.xib */,
+				F11195F61DD223E9002C7588 /* LoanDetailCell.xib */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		F1A127B61DD5301E00ECBFEE /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F14B6E331DCF8FAA00DF1F89 /* LoanVC.swift */,
+				F19E52121DCFE53400B290D4 /* OffersTVC.swift */,
+				F19E52161DCFED1100B290D4 /* LoanCell.swift */,
+				F11195F41DD156AA002C7588 /* LoanDetailVC.swift */,
+				F1A127B31DD52EB900ECBFEE /* LoanApplicationVC.swift */,
+				F168C8F91DD63C23003062F6 /* LoanApplied.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		F1A127B71DD5303300ECBFEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F19E52141DCFE6AC00B290D4 /* Loan.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F14B6E011DCF819600DF1F89 /* BIT-LoanCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14B6E2A1DCF819700DF1F89 /* Build configuration list for PBXNativeTarget "BIT-LoanCalculator" */;
+			buildPhases = (
+				84A2E37D3CA18599E42816C8 /* [CP] Check Pods Manifest.lock */,
+				F14B6DFE1DCF819600DF1F89 /* Sources */,
+				F14B6DFF1DCF819600DF1F89 /* Frameworks */,
+				F14B6E001DCF819600DF1F89 /* Resources */,
+				1AD6326C183A2BDEF4A21773 /* [CP] Embed Pods Frameworks */,
+				CBD8975DBE05B51678CE4A64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BIT-LoanCalculator";
+			productName = "BIT-LoanCalculator";
+			productReference = F14B6E021DCF819600DF1F89 /* BIT-LoanCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F14B6E151DCF819700DF1F89 /* BIT-LoanCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14B6E2D1DCF819700DF1F89 /* Build configuration list for PBXNativeTarget "BIT-LoanCalculatorTests" */;
+			buildPhases = (
+				F14B6E121DCF819700DF1F89 /* Sources */,
+				F14B6E131DCF819700DF1F89 /* Frameworks */,
+				F14B6E141DCF819700DF1F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14B6E181DCF819700DF1F89 /* PBXTargetDependency */,
+			);
+			name = "BIT-LoanCalculatorTests";
+			productName = "BIT-LoanCalculatorTests";
+			productReference = F14B6E161DCF819700DF1F89 /* BIT-LoanCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F14B6E201DCF819700DF1F89 /* BIT-LoanCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F14B6E301DCF819700DF1F89 /* Build configuration list for PBXNativeTarget "BIT-LoanCalculatorUITests" */;
+			buildPhases = (
+				F14B6E1D1DCF819700DF1F89 /* Sources */,
+				F14B6E1E1DCF819700DF1F89 /* Frameworks */,
+				F14B6E1F1DCF819700DF1F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F14B6E231DCF819700DF1F89 /* PBXTargetDependency */,
+			);
+			name = "BIT-LoanCalculatorUITests";
+			productName = "BIT-LoanCalculatorUITests";
+			productReference = F14B6E211DCF819700DF1F89 /* BIT-LoanCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F14B6DFA1DCF819600DF1F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = cyril;
+				TargetAttributes = {
+					F14B6E011DCF819600DF1F89 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F52M3675GT;
+						ProvisioningStyle = Automatic;
+					};
+					F14B6E151DCF819700DF1F89 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F14B6E011DCF819600DF1F89;
+					};
+					F14B6E201DCF819700DF1F89 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F14B6E011DCF819600DF1F89;
+					};
+				};
+			};
+			buildConfigurationList = F14B6DFD1DCF819600DF1F89 /* Build configuration list for PBXProject "BIT-LoanCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F14B6DF91DCF819600DF1F89;
+			productRefGroup = F14B6E031DCF819600DF1F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F14B6E011DCF819600DF1F89 /* BIT-LoanCalculator */,
+				F14B6E151DCF819700DF1F89 /* BIT-LoanCalculatorTests */,
+				F14B6E201DCF819700DF1F89 /* BIT-LoanCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F14B6E001DCF819600DF1F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14B6E101DCF819700DF1F89 /* LaunchScreen.storyboard in Resources */,
+				F14B6E0D1DCF819700DF1F89 /* Assets.xcassets in Resources */,
+				F19E52011DCFA03A00B290D4 /* Storyboard.storyboard in Resources */,
+				F19E52191DCFED8A00B290D4 /* LoanCellView.xib in Resources */,
+				F11195F71DD223E9002C7588 /* LoanDetailCell.xib in Resources */,
+				F1DB88D81DD3763100504E75 /* LoanDetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14B6E141DCF819700DF1F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14B6E1F1DCF819700DF1F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AD6326C183A2BDEF4A21773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BIT-LoanCalculator/Pods-BIT-LoanCalculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84A2E37D3CA18599E42816C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD8975DBE05B51678CE4A64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BIT-LoanCalculator/Pods-BIT-LoanCalculator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F14B6DFE1DCF819600DF1F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19E52171DCFED1100B290D4 /* LoanCell.swift in Sources */,
+				F14B6E341DCF8FAA00DF1F89 /* LoanVC.swift in Sources */,
+				F11195F51DD156AA002C7588 /* LoanDetailVC.swift in Sources */,
+				F168C8FA1DD63C23003062F6 /* LoanApplied.swift in Sources */,
+				F1A127B41DD52EB900ECBFEE /* LoanApplicationVC.swift in Sources */,
+				F14B6E061DCF819600DF1F89 /* AppDelegate.swift in Sources */,
+				F19E52131DCFE53400B290D4 /* OffersTVC.swift in Sources */,
+				F19E52151DCFE6AC00B290D4 /* Loan.swift in Sources */,
+				F11195F91DD22AE0002C7588 /* LoanDetailCell.swift in Sources */,
+				F1DB88DA1DD3784400504E75 /* LoanDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14B6E121DCF819700DF1F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14B6E1B1DCF819700DF1F89 /* BIT_LoanCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14B6E1D1DCF819700DF1F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14B6E261DCF819700DF1F89 /* BIT_LoanCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F14B6E181DCF819700DF1F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F14B6E011DCF819600DF1F89 /* BIT-LoanCalculator */;
+			targetProxy = F14B6E171DCF819700DF1F89 /* PBXContainerItemProxy */;
+		};
+		F14B6E231DCF819700DF1F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F14B6E011DCF819600DF1F89 /* BIT-LoanCalculator */;
+			targetProxy = F14B6E221DCF819700DF1F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F14B6E0E1DCF819700DF1F89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F14B6E0F1DCF819700DF1F89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F14B6E281DCF819700DF1F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F14B6E291DCF819700DF1F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14B6E2B1DCF819700DF1F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D6F117358E589EA44CDA86E /* Pods-BIT-LoanCalculator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F52M3675GT;
+				INFOPLIST_FILE = "BIT-LoanCalculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyril.dev.BIT-LoanCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F14B6E2C1DCF819700DF1F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECCDCD6C4876242DE1901D4 /* Pods-BIT-LoanCalculator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F52M3675GT;
+				INFOPLIST_FILE = "BIT-LoanCalculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyril.dev.BIT-LoanCalculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F14B6E2E1DCF819700DF1F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BIT-LoanCalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyril.dev.BIT-LoanCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BIT-LoanCalculator.app/BIT-LoanCalculator";
+			};
+			name = Debug;
+		};
+		F14B6E2F1DCF819700DF1F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BIT-LoanCalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyril.dev.BIT-LoanCalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BIT-LoanCalculator.app/BIT-LoanCalculator";
+			};
+			name = Release;
+		};
+		F14B6E311DCF819700DF1F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "BIT-LoanCalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyril.dev.BIT-LoanCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "BIT-LoanCalculator";
+			};
+			name = Debug;
+		};
+		F14B6E321DCF819700DF1F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "BIT-LoanCalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cyril.dev.BIT-LoanCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "BIT-LoanCalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F14B6DFD1DCF819600DF1F89 /* Build configuration list for PBXProject "BIT-LoanCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14B6E281DCF819700DF1F89 /* Debug */,
+				F14B6E291DCF819700DF1F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14B6E2A1DCF819700DF1F89 /* Build configuration list for PBXNativeTarget "BIT-LoanCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14B6E2B1DCF819700DF1F89 /* Debug */,
+				F14B6E2C1DCF819700DF1F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14B6E2D1DCF819700DF1F89 /* Build configuration list for PBXNativeTarget "BIT-LoanCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14B6E2E1DCF819700DF1F89 /* Debug */,
+				F14B6E2F1DCF819700DF1F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F14B6E301DCF819700DF1F89 /* Build configuration list for PBXNativeTarget "BIT-LoanCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F14B6E311DCF819700DF1F89 /* Debug */,
+				F14B6E321DCF819700DF1F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F14B6DFA1DCF819600DF1F89 /* Project object */;
+}
